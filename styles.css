@@ -1,3 +1,12 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
+:root {
+  --dark-blue: #0c0950;
+  --medium-dark-blue: #161179;
+  --lighter-blue: #261fb3;
+  --pink: #fbe4d6;
+  --white: #fff;
+  --black: #000;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
