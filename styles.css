@@ -8,14 +8,30 @@
 }
 
 body {
-    background-color: var(--dark-blue);
+  background-color: var(--dark-blue);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
-* {
-  font-family: Arial, Helvetica, sans-serif;
+.hpBackground img {
+  display: flex;
+  width: 100%;
 }
-
-.hpBackground img{
-    display: flex;
-    width: 100%;
+.small-logo-image {
+  text-align: center;
+  margin-top: 5%;
+}
+.small-logo-image img {
+  width: 35%;
+}
+.intro-h1 {
+  color: var(--pink);
+  font-weight: 100;
+  text-align: center;
+  margin: 3% auto;
+}
+.guest-login {
+  color: var(--pink);
+  font-size: 0.8rem;
+  margin-top: 10%;
+  text-align: center;
 }
